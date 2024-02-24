@@ -1,0 +1,231 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    color: white !important;
+}
+body {
+    background-color: black !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none !important;
+}
+nav ul li a {
+    font-family: 'Quattrocento', sans-serif;
+}
+.navbar_nav_links {
+    display: flex;
+    gap: 40px;
+}
+.symnol {
+    font-size: 20px !important;
+}
+.main_content {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.container1 {
+    background-image: url('https://s3-alpha-sig.figma.com/img/e41c/fff8/a3fe6a728dd01a51c641fb628da05ddf?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ThIzbfyByypIQXBCACZrj8YWp28UZeGTsLA5e5IW8~VAZMn3oLsB4qP9HP9X0IMM-YU0J8wgXDxGTnBNY1aXzNf5c0WC5hVl3eZXwuyme~otjdXwssemfxKloRVh7Mv9aXWzZeYmE9kSfPQSuTNcSibglf~piunJY45lMbX69XNFvkKv3JE1U0CxdtPCSKkAZc1ervdlb7307pmmpBhFceWwkCHKMEVt0FdVEduCVSpLurQDR4caUWHtpmrZoPEOtkciSnyVp8Bad8TKSBk7utzfI~J502J43VWQ1~1tlQzWHObAHxszulsrhdgWiAAXQWTuhIO-KS6aoUR6-W3V~A__');
+    margin: 0 auto;
+    padding: 60px !important;
+}
+.container {
+    margin: 0 auto;
+    padding: 10px !important;
+}
+.background_image {
+    background-image: url('https://s3-alpha-sig.figma.com/img/791f/9ca1/801cf713555ea70ba295e8de05e15650?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X05ktVGgkF7l99DPltM4oUNF8FSxQyV2vB5SGqU26GuozjjNABvtX0to0ycVrDl66BJhfK2bBN976yWPNrEX8spcX99BRS8LECRGbNjHuZbWQr~EBpRlT-4d8NVybi0ImKiH4dCPOO2Pb8xjJOvazsNFEZKwjyZWsid2~X16Ypl~kD7IW6rUsOP1-yTsvqRCKCwQt8ssC7sOtU4c49pAh~T49a3TBJkqy1CXvxW2mzhd4zWnF72bFiBLYVD47hj15je5REEVen25-0PetmUY3cQNspRCO7bobsZodVjnUvgj8pmSxOjX18841WJDpCPU3774NKwvzRA-wKJr7d8Qeg__');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0px !important;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+.main_container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px !important;
+    gap: 30px;
+    width: 300px !important;
+    height: 300px !important;
+}
+.heading1 {
+    width: 300px !important;
+    height: 100px !important;
+}
+.horizontal_line {
+    width: 200px !important;
+    border-bottom: 7px solid #F24C4C;
+}
+.para {
+    width: 300px !important;
+    height: 100px !important;
+}
+.about {
+    padding-left: 100px !important;
+    width: 100%;
+}
+.horizontal_line1 {
+    width: 200px !important;
+    border-bottom: 5px solid #F24C4C;
+    margin: 0 auto !important;
+    padding-top: 10px !important;
+}
+.main_about {
+    margin-top: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px !important;
+}
+.para2 {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.img_fluid {
+    width: 400px !important;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal_line2 {
+    width: 300px !important;
+    border-bottom: 2px solid #F24C4C;
+}
+.list {
+    text-wrap: nowrap;
+    display: inline-block;
+    margin-bottom: 20px !important;
+    margin-right: 5px !important;
+}
+.category_section {
+    height: auto;
+    text-wrap: nowrap;
+    margin: auto !important;
+    overflow: hidden;
+    padding-left: 70px !important;
+    margin: 40px !important;
+}
+.my_card {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px !important;
+}
+.image {
+    width: 200px !important;
+    border-radius: 8px;
+}
+.card_name {
+    color:#F2C94C !important;
+}
+.coural_image {
+    width: 100%;
+    height: 500px;
+}
+.container_gallery {
+    display: grid;
+    grid-template-columns: repeat(9,100px);
+    grid-template-rows: repeat(6,100px);
+    gap: 13px !important;
+    padding-top: 20px !important;
+}
+.eg1 {
+    background-image: url('https://s3-alpha-sig.figma.com/img/c6ef/4438/3e685beae728d1d4de3d5b0aa1ad09ab?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GwPtLl~M0xISmHVNNiD4LNDsNx~XJQPP-OYRQaOmTFha4VgVfopRR84SeE-bH2A6ECmCJ1D9MA7p3~EXLr8YDDiiaAmEkTb93~Ek1abdoXkVu1oTKUtiyfVkGib9HQPBoU95c0JtcYhSltYRJ9lLZGyN7mRLQ82QGb0Y6J1j~BZenp7FHEhRDtgjIVsrMwO7HsFH~xWsPJjexu0hlV8KyC-0ElhdJB4eDL0vUMbsHn835qQvNygfJieTWFysdtrTCghMXwLKABoXkqrK4t-8z7QmJPr9yNVSBwF9coiiRDOvY6DSTvDS8XkepTnEglHNsWYUCdNf37eJzZodsJRt-Q__');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    border-radius: 5px !important;
+}
+.eg2 {
+    background-image: url('https://s3-alpha-sig.figma.com/img/f7fb/8767/a32abae68702adcaa404f19e085bc570?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MAC5oXy27LkVgV8Kasb1rAxQeCQJnMxdol-qrBjKu3BsKMR~B~HZgM~YpEtUS-hzBGCw~rFgjRWxcKmhtahSP-rMBJa0vcHvyruyL6KJo4XyKIYx2Akhx17nQPRjcQBwwL5h2DmFb-z2GIF2GRIklvRrCUlwh-qxf6mcTzg95xpu6bEsMweN1yrKonG1S6DinfO5anHRZSvE1cE50tZmSIT4XMRt5gMCUk9zwAnuUYipstiymX0tt-2KVnQswpZ0MlobQFAOLj--IwXRqpkDHWXXhl6aYqmitI6VhQRhWbe4kqte8Qu3Evn363Kxj8snuf-pOJbNQ2kT5NTQEousIg__');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 5px !important;
+}
+.eg3 {
+    background-image: url('https://s3-alpha-sig.figma.com/img/f7fb/8767/a32abae68702adcaa404f19e085bc570?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MAC5oXy27LkVgV8Kasb1rAxQeCQJnMxdol-qrBjKu3BsKMR~B~HZgM~YpEtUS-hzBGCw~rFgjRWxcKmhtahSP-rMBJa0vcHvyruyL6KJo4XyKIYx2Akhx17nQPRjcQBwwL5h2DmFb-z2GIF2GRIklvRrCUlwh-qxf6mcTzg95xpu6bEsMweN1yrKonG1S6DinfO5anHRZSvE1cE50tZmSIT4XMRt5gMCUk9zwAnuUYipstiymX0tt-2KVnQswpZ0MlobQFAOLj--IwXRqpkDHWXXhl6aYqmitI6VhQRhWbe4kqte8Qu3Evn363Kxj8snuf-pOJbNQ2kT5NTQEousIg__');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-radius: 5px !important;
+}
+.eg4 {
+    background-image: url('https://s3-alpha-sig.figma.com/img/7485/7b89/34dcea3f42967f3a863a8e57e7dd6d9c?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YD3~i2U8dmfH3EYYGNxUg4ASzawqanPcpEaAJzJudjORf8Sxyt0tmL~F9A-WaRF46l-fgvEsCH7e1ofIXCoRRojvZsrbSfFlE6FafMzRAQI1U~g1meC3TcA1cJyEvtTGi2FQrhNqIaXAiyecJDFjQ2tBXv-49IJB4C-BEIetOW9RYT3f0CDK-Tsr1lSpvbk85VG6COlMPvJhXjxgz8KZrCCq9zwtTqOJAkH-4Lqu-kj1dJm8KHTjMzwz7GBp3ttrlNftW9QxvMJa-j1a4nKKL3l4wAziCfFSWB1Mcn0qFrh1A1plZGs2~2RQk-SW37mHTmKYReDZIzsBEg7-Wo1zXA__');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-radius: 5px !important;
+}
+.eg5 {
+    background-image: url('https://s3-alpha-sig.figma.com/img/e597/fa5f/5b1c4b1c5a1925d8a24ccdf59f2a9519?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pzVtdW4tFA0FepH4qSaAq3gFtUAgkrjl7Nyim-EAcCyltiDigVtVE6kFtfc7Uza7bAAQXR4EtC7eZX8ZJZe7SBPLQltJ3BJ8MZN9pPS05MvfCwmSZu1SFiA5eWYgZStFHaRCoi3GlbEyXqoowSdmzmZ3IHiOisd4cZSlAkPXJxX5hUQ-2WFbrlNjRAIUdPDKj2QcTrRyLW2H~wGbIaNRbW8HlrJaPXWbBMHf4nOPl6A85KAHcY6BmR9jzWgYRV3HEgWJcbp3zBZMAkV~ffBuC18iDCTAcj3VsQ5jBe8LYh1Yn7aHGH~~dElKWEyaHYw1FVwgQeRIpEHl~qbRQfdIBQ__');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    border-radius: 5px !important;
+}
+.eg6 {
+    background-image: url('https://s3-alpha-sig.figma.com/img/1668/5198/2617d81c6b9c909195d046d7bfe10c01?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4CSMvgYBOtzMyMonDruY94XicAn7SeERBcMAZ1NGSj07XpldPmeZzeNqYhBVxEJH~G22vCIdX0TY1JEOzyOMh1FTnfQHBG2z1hq6pO3QSib985SkhAcah4xfuFFSrNhkqBT~uR1Bor5U64JUGWugvyfjn8tYQJyUH5kfPrVihpCW5JiN9lG54OVTDtCWr4uIZhfYXfMM0ZASnYBfAxBnyMOKPf6nlVmsW~U4akmcjm~p4rXkDG2x4cpccilQd7NCHZKE1JiJlqpxyKNLYczfa~-C3jjW9Zegh0ENWOjZSwmMuPDdQxKwJGYDcXOHFvwywn7w7wlFrg9a3WVph5ZXQ__');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    border-radius: 5px !important;
+}
+.contact {
+    margin-top: 30px !important;
+}
+.main_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.map_location {
+    width: 500px !important;
+}
+.restur {
+    padding-left: 30px !important;
+    font-size: 90px !important;
+}
+p{
+    font-family: 'Ruda', sans-serif;
+}
+h3 {
+    font-family: 'Quattrocento', sans-serif;
+}
+h2 {
+    font-family: 'Quattrocento', sans-serif;
+}
+
